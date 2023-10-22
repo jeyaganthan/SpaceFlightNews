@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E416E932AE434FA0099C472 /* Spaceflight_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416E922AE434FA0099C472 /* Spaceflight_NewsApp.swift */; };
+		1E416E952AE434FA0099C472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416E942AE434FA0099C472 /* ContentView.swift */; };
+		1E416E972AE434FB0099C472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E416E962AE434FB0099C472 /* Assets.xcassets */; };
+		1E416E9A2AE434FB0099C472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E416E992AE434FB0099C472 /* Preview Assets.xcassets */; };
+		1E416E9C2AE434FB0099C472 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416E9B2AE434FB0099C472 /* Persistence.swift */; };
+		1E416E9F2AE434FB0099C472 /* Spaceflight_News.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E416E9D2AE434FB0099C472 /* Spaceflight_News.xcdatamodeld */; };
+		1E416EAA2AE436770099C472 /* NewsCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EA92AE436770099C472 /* NewsCategoryView.swift */; };
+		1E416EAC2AE436B20099C472 /* NewsCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EAB2AE436B20099C472 /* NewsCategoryViewModel.swift */; };
+		1E416EAE2AE436C90099C472 /* NewsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EAD2AE436C90099C472 /* NewsCategory.swift */; };
+		1E416EB72AE43C200099C472 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EB32AE43C200099C472 /* Events.swift */; };
+		1E416EB82AE43C200099C472 /* Article_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EB42AE43C200099C472 /* Article_Base.swift */; };
+		1E416EB92AE43C200099C472 /* Launches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EB52AE43C200099C472 /* Launches.swift */; };
+		1E416EBA2AE43C200099C472 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EB62AE43C200099C472 /* Results.swift */; };
+		1E416EBC2AE43D260099C472 /* NewsArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EBB2AE43D260099C472 /* NewsArticleListView.swift */; };
+		1E416EBE2AE43D7C0099C472 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EBD2AE43D7C0099C472 /* ArticleListViewModel.swift */; };
+		1E416EC12AE4420C0099C472 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EC02AE4420C0099C472 /* APIServices.swift */; };
+		1E416EC32AE442570099C472 /* FetchArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EC22AE442570099C472 /* FetchArticleService.swift */; };
+		1E416EC62AE4CC7C0099C472 /* NewsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416EC52AE4CC7C0099C472 /* NewsConstants.swift */; };
+		1E416ECC2AE4D3180099C472 /* NewsDetails_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416ECB2AE4D3180099C472 /* NewsDetails_Base.swift */; };
+		1E416ECE2AE4D39B0099C472 /* NewsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416ECD2AE4D39B0099C472 /* NewsDetailViewModel.swift */; };
+		1E416ED02AE4D3ED0099C472 /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E416ECF2AE4D3ED0099C472 /* NewsDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E416E8F2AE434FA0099C472 /* Spaceflight News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spaceflight News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E416E922AE434FA0099C472 /* Spaceflight_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spaceflight_NewsApp.swift; sourceTree = "<group>"; };
+		1E416E942AE434FA0099C472 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E416E962AE434FB0099C472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E416E992AE434FB0099C472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E416E9B2AE434FB0099C472 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1E416E9E2AE434FB0099C472 /* Spaceflight_News.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spaceflight_News.xcdatamodel; sourceTree = "<group>"; };
+		1E416EA92AE436770099C472 /* NewsCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCategoryView.swift; sourceTree = "<group>"; };
+		1E416EAB2AE436B20099C472 /* NewsCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCategoryViewModel.swift; sourceTree = "<group>"; };
+		1E416EAD2AE436C90099C472 /* NewsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCategory.swift; sourceTree = "<group>"; };
+		1E416EB32AE43C200099C472 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		1E416EB42AE43C200099C472 /* Article_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article_Base.swift; sourceTree = "<group>"; };
+		1E416EB52AE43C200099C472 /* Launches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launches.swift; sourceTree = "<group>"; };
+		1E416EB62AE43C200099C472 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		1E416EBB2AE43D260099C472 /* NewsArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleListView.swift; sourceTree = "<group>"; };
+		1E416EBD2AE43D7C0099C472 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		1E416EC02AE4420C0099C472 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		1E416EC22AE442570099C472 /* FetchArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchArticleService.swift; sourceTree = "<group>"; };
+		1E416EC52AE4CC7C0099C472 /* NewsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsConstants.swift; sourceTree = "<group>"; };
+		1E416ECB2AE4D3180099C472 /* NewsDetails_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetails_Base.swift; sourceTree = "<group>"; };
+		1E416ECD2AE4D39B0099C472 /* NewsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewModel.swift; sourceTree = "<group>"; };
+		1E416ECF2AE4D3ED0099C472 /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E416E8C2AE434FA0099C472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E416E862AE434FA0099C472 = {
+			isa = PBXGroup;
+			children = (
+				1E416E912AE434FA0099C472 /* Spaceflight News */,
+				1E416E902AE434FA0099C472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E416E902AE434FA0099C472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E416E8F2AE434FA0099C472 /* Spaceflight News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E416E912AE434FA0099C472 /* Spaceflight News */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EC72AE4D2A20099C472 /* NewsDetailsView */,
+				1E416EC42AE4CC6D0099C472 /* Constants */,
+				1E416EBF2AE441760099C472 /* APIServices */,
+				1E416EAF2AE43BF40099C472 /* ArticleViews */,
+				1E416EA52AE436430099C472 /* HomeCategoryView */,
+				1E416E922AE434FA0099C472 /* Spaceflight_NewsApp.swift */,
+				1E416E942AE434FA0099C472 /* ContentView.swift */,
+				1E416E962AE434FB0099C472 /* Assets.xcassets */,
+				1E416E9B2AE434FB0099C472 /* Persistence.swift */,
+				1E416E9D2AE434FB0099C472 /* Spaceflight_News.xcdatamodeld */,
+				1E416E982AE434FB0099C472 /* Preview Content */,
+			);
+			path = "Spaceflight News";
+			sourceTree = "<group>";
+		};
+		1E416E982AE434FB0099C472 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E416E992AE434FB0099C472 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E416EA52AE436430099C472 /* HomeCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EA82AE436630099C472 /* Model */,
+				1E416EA72AE4365E0099C472 /* View */,
+				1E416EA62AE436560099C472 /* ViewModel */,
+			);
+			path = HomeCategoryView;
+			sourceTree = "<group>";
+		};
+		1E416EA62AE436560099C472 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EAB2AE436B20099C472 /* NewsCategoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E416EA72AE4365E0099C472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EA92AE436770099C472 /* NewsCategoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E416EA82AE436630099C472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EAD2AE436C90099C472 /* NewsCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E416EAF2AE43BF40099C472 /* ArticleViews */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EB22AE43C100099C472 /* Model */,
+				1E416EB12AE43C060099C472 /* View */,
+				1E416EB02AE43BFF0099C472 /* ViewModel */,
+				1E416EC22AE442570099C472 /* FetchArticleService.swift */,
+			);
+			path = ArticleViews;
+			sourceTree = "<group>";
+		};
+		1E416EB02AE43BFF0099C472 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EBD2AE43D7C0099C472 /* ArticleListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E416EB12AE43C060099C472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EBB2AE43D260099C472 /* NewsArticleListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E416EB22AE43C100099C472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EB32AE43C200099C472 /* Events.swift */,
+				1E416EB42AE43C200099C472 /* Article_Base.swift */,
+				1E416EB52AE43C200099C472 /* Launches.swift */,
+				1E416EB62AE43C200099C472 /* Results.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E416EBF2AE441760099C472 /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EC02AE4420C0099C472 /* APIServices.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
+		1E416EC42AE4CC6D0099C472 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1E416EC52AE4CC7C0099C472 /* NewsConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1E416EC72AE4D2A20099C472 /* NewsDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				1E416ECA2AE4D2B30099C472 /* ViewModel */,
+				1E416EC92AE4D2AF0099C472 /* View */,
+				1E416EC82AE4D2AA0099C472 /* Model */,
+			);
+			path = NewsDetailsView;
+			sourceTree = "<group>";
+		};
+		1E416EC82AE4D2AA0099C472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E416ECB2AE4D3180099C472 /* NewsDetails_Base.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E416EC92AE4D2AF0099C472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E416ECF2AE4D3ED0099C472 /* NewsDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E416ECA2AE4D2B30099C472 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E416ECD2AE4D39B0099C472 /* NewsDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E416E8E2AE434FA0099C472 /* Spaceflight News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E416EA22AE434FB0099C472 /* Build configuration list for PBXNativeTarget "Spaceflight News" */;
+			buildPhases = (
+				1E416E8B2AE434FA0099C472 /* Sources */,
+				1E416E8C2AE434FA0099C472 /* Frameworks */,
+				1E416E8D2AE434FA0099C472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spaceflight News";
+			productName = "Spaceflight News";
+			productReference = 1E416E8F2AE434FA0099C472 /* Spaceflight News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E416E872AE434FA0099C472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1E416E8E2AE434FA0099C472 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E416E8A2AE434FA0099C472 /* Build configuration list for PBXProject "Spaceflight News" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E416E862AE434FA0099C472;
+			productRefGroup = 1E416E902AE434FA0099C472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E416E8E2AE434FA0099C472 /* Spaceflight News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E416E8D2AE434FA0099C472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E416E9A2AE434FB0099C472 /* Preview Assets.xcassets in Resources */,
+				1E416E972AE434FB0099C472 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E416E8B2AE434FA0099C472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E416EBC2AE43D260099C472 /* NewsArticleListView.swift in Sources */,
+				1E416EBE2AE43D7C0099C472 /* ArticleListViewModel.swift in Sources */,
+				1E416E9C2AE434FB0099C472 /* Persistence.swift in Sources */,
+				1E416E952AE434FA0099C472 /* ContentView.swift in Sources */,
+				1E416EB92AE43C200099C472 /* Launches.swift in Sources */,
+				1E416EC32AE442570099C472 /* FetchArticleService.swift in Sources */,
+				1E416EB82AE43C200099C472 /* Article_Base.swift in Sources */,
+				1E416E932AE434FA0099C472 /* Spaceflight_NewsApp.swift in Sources */,
+				1E416EC62AE4CC7C0099C472 /* NewsConstants.swift in Sources */,
+				1E416E9F2AE434FB0099C472 /* Spaceflight_News.xcdatamodeld in Sources */,
+				1E416EB72AE43C200099C472 /* Events.swift in Sources */,
+				1E416EBA2AE43C200099C472 /* Results.swift in Sources */,
+				1E416ECE2AE4D39B0099C472 /* NewsDetailViewModel.swift in Sources */,
+				1E416ECC2AE4D3180099C472 /* NewsDetails_Base.swift in Sources */,
+				1E416EAA2AE436770099C472 /* NewsCategoryView.swift in Sources */,
+				1E416EAE2AE436C90099C472 /* NewsCategory.swift in Sources */,
+				1E416ED02AE4D3ED0099C472 /* NewsDetailView.swift in Sources */,
+				1E416EC12AE4420C0099C472 /* APIServices.swift in Sources */,
+				1E416EAC2AE436B20099C472 /* NewsCategoryViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E416EA02AE434FB0099C472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E416EA12AE434FB0099C472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E416EA32AE434FB0099C472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spaceflight News/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jey.Spaceflight-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E416EA42AE434FB0099C472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spaceflight News/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jey.Spaceflight-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E416E8A2AE434FA0099C472 /* Build configuration list for PBXProject "Spaceflight News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E416EA02AE434FB0099C472 /* Debug */,
+				1E416EA12AE434FB0099C472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E416EA22AE434FB0099C472 /* Build configuration list for PBXNativeTarget "Spaceflight News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E416EA32AE434FB0099C472 /* Debug */,
+				1E416EA42AE434FB0099C472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E416E9D2AE434FB0099C472 /* Spaceflight_News.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E416E9E2AE434FB0099C472 /* Spaceflight_News.xcdatamodel */,
+			);
+			currentVersion = 1E416E9E2AE434FB0099C472 /* Spaceflight_News.xcdatamodel */;
+			path = Spaceflight_News.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E416E872AE434FA0099C472 /* Project object */;
+}
